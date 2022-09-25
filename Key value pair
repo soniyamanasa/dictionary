@@ -1,0 +1,5 @@
+n=int(input('enter the key(int) to be added:\n'))
+d=int(input('enter the value for the key to be added:\n'))
+a={n:d}
+a.update()
+print('updated dictionary is:\n',a)
